@@ -19,9 +19,10 @@ BODY_PARTS = { "Nose": 0, "Neck": 1, "RShoulder": 2, "RElbow": 3, "RWrist": 4,
 
 POSE_PAIRS = [ ["Neck", "RShoulder"], ["Neck", "LShoulder"], ["RShoulder", "RElbow"],
                ["RElbow", "RWrist"], ["LShoulder", "LElbow"], ["LElbow", "LWrist"],
-               ["Neck", "RHip"], ["RHip", "RKnee"], ["RKnee", "RAnkle"], ["Neck", "LHip"],
+               ["RHip", "RKnee"], ["RKnee", "RAnkle"],
                ["LHip", "LKnee"], ["LKnee", "LAnkle"], ["Neck", "Nose"], ["Nose", "REye"],
-               ["REye", "REar"], ["Nose", "LEye"], ["LEye", "LEar"] ]
+               ["REye", "REar"], ["Nose", "LEye"], ["LEye", "LEar"],["LHip","LShoulder"],
+               ["RHip","RShoulder"] ]
 
 inWidth = args.width
 inHeight = args.height
