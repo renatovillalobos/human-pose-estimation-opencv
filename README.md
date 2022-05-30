@@ -1,4 +1,7 @@
-# Alesai-customized Body Position (forked from human-pose-estimation-opencv)
+# Alesai Body Position 
+
+Forked from human-pose-estimation-opencv project, belonging to @quanhua93
+
 Perform Human Pose Estimation in OpenCV Using OpenPose MobileNet
 
 ![OpenCV Using OpenPose MobileNet](output.JPG)
